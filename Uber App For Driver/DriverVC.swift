@@ -75,7 +75,7 @@ class DriverVC: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate, 
     
     func acceptUber(lat: Double, long: Double) {
         if !acceptedUber {
-            uberRequest(title: "Uber Request", message: "You have a request for an uber at this location Lat: \(lat), Long: \(long)", requestAlive: true);
+            uberRequest(title: "Service Request", message: "You have a request for a Service at this location Lat: \(lat), Long: \(long)", requestAlive: true);
         }
     }
     
@@ -84,7 +84,7 @@ class DriverVC: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate, 
             UberHandler.Instance.cancelUberForDriver();
             self.acceptedUber = false;
             self.acceptUberBtn.isHidden = true;
-            uberRequest(title: "Uber Canceled", message: "The Rider Has Canceled The Uber", requestAlive: false);
+            uberRequest(title: "Service Canceled", message: "The Rider Has Canceled The Service", requestAlive: false);
         }
     }
     
