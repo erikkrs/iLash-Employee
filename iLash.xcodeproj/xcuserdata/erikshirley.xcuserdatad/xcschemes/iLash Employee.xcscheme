@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C53715B746226455AC2FCD1328807C43"
-               BuildableName = "Pods_Uber_App_For_Driver.framework"
-               BlueprintName = "Pods-Uber App For Driver"
-               ReferencedContainer = "container:Pods.xcodeproj">
+               BlueprintIdentifier = "FA0D4EFA1DB8C93C00763007"
+               BuildableName = "iLash Employee.app"
+               BlueprintName = "iLash Employee"
+               ReferencedContainer = "container:iLash.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -30,6 +30,15 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "FA0D4EFA1DB8C93C00763007"
+            BuildableName = "iLash Employee.app"
+            BlueprintName = "iLash Employee"
+            ReferencedContainer = "container:iLash.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -44,15 +53,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C53715B746226455AC2FCD1328807C43"
-            BuildableName = "Pods_Uber_App_For_Driver.framework"
-            BlueprintName = "Pods-Uber App For Driver"
-            ReferencedContainer = "container:Pods.xcodeproj">
+            BlueprintIdentifier = "FA0D4EFA1DB8C93C00763007"
+            BuildableName = "iLash Employee.app"
+            BlueprintName = "iLash Employee"
+            ReferencedContainer = "container:iLash.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -62,6 +72,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "FA0D4EFA1DB8C93C00763007"
+            BuildableName = "iLash Employee.app"
+            BlueprintName = "iLash Employee"
+            ReferencedContainer = "container:iLash.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
